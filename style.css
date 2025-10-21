@@ -4,29 +4,28 @@
    background color to black 
    text color to white
 */
-h2 {background-color: black; color: white;}
 
 
 /* Make a filter that will set the grayscale of all 'img'
    elements to 80% when they are hovered over.
    You can use a different filter if you want.
 */
-img:hover { filter: grayscale(80%); }
+
 
 /* Add a 1s transition to all 'img' elements for the filter
    property.
 */
-img { transition: filter 1s; }
+
 
 /* Make a descendant rule to set the color of every h4 
    that is ALSO inside the elephant-grid to green.
 */
-#elephant-grid h4 {color: green;}
+
 
 /* Make a class rule to set the width and height to 100px
    for the 'picture' class.
 */
-.picture { height: 200px; width: 50px;}
+
 
 /* Make a rule for the element with the id
      'elephant-grid' that does the following:
@@ -37,22 +36,12 @@ img { transition: filter 1s; }
 */
 
 
-#elephant-grid {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-
 /* Make a class  rule that will scale anything
    with the "description" class by 2 when you move
    your mouse over it.
 */
-.description:hover { transform: scale(2); }
 
 
 /* Make a class rule that adds a 2s transition to the
    transform property of the 'description' class.
 */
-.description { transition: transform 2s;}
